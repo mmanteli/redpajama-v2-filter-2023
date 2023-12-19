@@ -1,0 +1,18 @@
+Read files:  /scratch/project_462000086/data/redpajama-v2/quality-2023-14/4346/fr_middle.signals.json.gz ...
+
+number_of_words: 	 [67.0, 173.0, 790.0, 1443.0]
+number_of_lines: 	 [4.0, 8.0, 34.0, 61.0]
+number_of_characters: 	 [436.0, 1122.0, 5042.0, 9189.0]
+language_identification: 	 [0.96, 0.98, 0.99, 1.0]
+perplexity: 	 [119.4, 156.6, 263.9, 301.9]
+stop_words: 	 [0.26687117, 0.3276699, 0.41138561, 0.44047619000000005]
+special_characters: 	 [0.15619968, 0.17702845, 0.23689956, 0.29064039]
+flagged_words: 	 [0.0, 0.0, 0.0, 0.0]
+words_per_line: 	 [3.0, 5.0, 30.0, 60.0]
+words_per_line_mean: 	 [9.987979094076657, 14.379432624113475, 30.9, 44.0]
+short_line_ratio: 	 [0.36585365853658536, 0.5, 0.7931034482758621, 0.9090909090909091]
+character_repetition10: 	 [0.0, 0.0, 0.0, 0.07603802]
+character_repetition5: 	 [0.0, 0.0, 0.09292035, 0.18820225]
+word_repetition: 	 [0.38197425, 0.45862413, 0.64141414, 0.75757576]
+unigram_entropy: 	 [3.72473776, 4.4091674925, 5.315353505, 5.633601875]
+lines_end_in_punct: 	 [0.06666666666666667, 0.23076923076923078, 0.5769230769230769, 0.7272727272727273]
