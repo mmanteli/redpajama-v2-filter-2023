@@ -10,7 +10,7 @@ Instructions:
 GENERAL DIR STRUCTURE:
 
 - everything in amanda/ is something that is currently used
-- old_scripts contains backups and old code
+- additional_scripts contains backups and old code
 - logs, samples, results are self evident (hopefully); some of these include README clarification.
 - test_datasets contains hf-dataset with flags for which metrics each text passed etc. => these used in filter_analysis
 
