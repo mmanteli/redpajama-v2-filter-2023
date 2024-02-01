@@ -1,5 +1,6 @@
 import sys
 import json
+import os
 import numpy as np
 
 
@@ -140,7 +141,7 @@ def filter(signals, language, rules):
 # ############## START HERE ##################
 
 
-# f (below)  is the rule file. It should contain data like this:
+# sys.argv[2] is the path to the rule file. It should contain data like this:
 """
 {
 "en":{
@@ -159,7 +160,10 @@ def filter(signals, language, rules):
 
 # give language as "en", "fr", "de", "it" or "es"
 language = sys.argv[1]
-f = open("/scratch/project_462000086/data/redpajama-v2/quality_thresholds.json")
+rules_path = sys.argv[2]
+assert language in ["en", "fr", "de", "it", "es"], "Language not given correctly"
+assert os.path.exists(rules_path), "Rules file not found"
+f = open(rules_path)
 rules = json.load(f)[language]
 
 # PIPED INPUT
