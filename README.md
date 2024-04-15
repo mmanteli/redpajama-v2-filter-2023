@@ -1,11 +1,16 @@
-Instructions:
+## General
 
-1. Choose the metrics that seems intuitively good (from total 40), but incorporate at least the metrics used in Cultura X (12 different metrics), preferably more to obtain better data
+The RedPajama dataset contains 40 different precalculated metrics for each document:
+
+1. Choose the metrics that seems intuitively good (from the total 40), but incorporate at least the metrics used in Cultura X (12 different metrics)
 2. Follow example by Cultura X and use the distributions of the metrics to choose appropriate threshold for each metric per language
-    2a. Extract the values
-    2b. Compute p-quantiles -> Q1 for thresholds that favor high values, Q3 for thresholds that favor low values -> p maybe needs to be adjusted depending on the distribution
-3. Filter the data with found thresholds
+    2a. Extract the values of a certain metric
+    2b. Compute p-quantiles from the metric value distribution
+    2c. Select Q1 for thresholds that favor high values, Q3 for thresholds that favor low values
+4. Filter the data with found thresholds
 
+
+## Code
 
 GENERAL DIR STRUCTURE:
 
@@ -63,7 +68,7 @@ sl-filter.sh:
 - runs filter.py on LUMI
 
 
-## Workflow
+## Chosen thresholds and metrics
 
 - Pre-computed metrics (number_of_words, number_of_lines, number_of_characters, language_identification, perplexity, stop_words, special_characters, flagged_words, words_per_line_mean, short_line_ratio, character_repetition10gram, character_repetition5gram, word_repetition, unigram_entropy, lines_end_in_punctuation) were used
 - Filtering was based in 4 different thresholds based in _p_-quantiles inspired by Cultura X:
@@ -86,5 +91,7 @@ sl-filter.sh:
    - Regular for German, French, Italian, and Spanish
    - Strict for English
    - These filters were chosen based on goal of 100B tokens for each language
+
+
 
 
