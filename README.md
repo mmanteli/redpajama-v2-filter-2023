@@ -63,4 +63,28 @@ sl-filter.sh:
 - runs filter.py on LUMI
 
 
+## Workflow
+
+- Pre-computed metrics (number_of_words, number_of_lines, number_of_characters, language_identification, perplexity, stop_words, special_characters, flagged_words, words_per_line_mean, short_line_ratio, character_repetition10gram, character_repetition5gram, word_repetition, unigram_entropy, lines_end_in_punctuation) were used
+- Filtering was based in 4 different thresholds based in _p_-quantiles inspired by Cultura X:
+   - 0.05% of the data was used to calculate the distributions for languages Italian, German, French and Spanish
+   - 0.02% of data was used to calculate the distribution for English
+   - lower _p_-th percentile was used for the metrics that favor high values (e.g number_of_words), while metrics favoring low values (e.g. flagged words) will the upper _p_-th percentile
+- Regular
+   - $p_1 = 10$
+   - $p_3 = 90$
+- Strict
+   - $p_1=20$
+   - $p_3 =80$
+- Even stricter
+   - $p_1=30$
+   - $p_3=70$
+- Strictest
+   - $p_1 = 40$
+   - $p_3 = 60$
+- Of these documents and signatures were filtered using:
+   - Regular for German, French, Italian, and Spanish
+   - Strict for English
+   - These filters were chosen based on goal of 100B tokens for each language
+
 
