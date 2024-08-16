@@ -1,0 +1,262 @@
+{
+    "fr": {
+        "number_of_words": {
+            ">": "70.0"
+        },
+        "number_of_lines": {
+            ">": "4.0"
+        },
+        "number_of_characters": {
+            ">": "458.0"
+        },
+        "language_identification": {
+            ">": "0.96"
+        },
+        "perplexity": {
+            "<": "304.3"
+        },
+        "stop_words": {
+            ">": "0.252583268"
+        },
+        "special_characters": {
+            "<": "0.30597015"
+        },
+        "flagged_words": {
+            "<": "0.0"
+        },
+        "words_per_line": {
+            ">": "3.0"
+        },
+        "words_per_line_mean": {
+            ">": "9.4"
+        },
+        "short_line_ratio": {
+            "<": "0.9259259259259259"
+        },
+        "character_repetition10": {
+            "<": "0.07967589"
+        },
+        "character_repetition5": {
+            "<": "0.18687066000000002"
+        },
+        "word_repetition": {
+            ">": "0.38932089400000003",
+            "<": "0.75438596"
+        },
+        "unigram_entropy": {
+            ">": "3.74974628",
+            "<": "5.730383369"
+        },
+        "lines_end_in_punct": {
+            ">": "0.038461538461538464"
+        }
+    },
+    "de": {
+        "number_of_words": {
+            ">": "55.0"
+        },
+        "number_of_lines": {
+            ">": "4.0"
+        },
+        "number_of_characters": {
+            ">": "422.0"
+        },
+        "language_identification": {
+            ">": "0.96"
+        },
+        "perplexity": {
+            "<": "552.6"
+        },
+        "stop_words": {
+            ">": "0.16528926"
+        },
+        "special_characters": {
+            "<": "0.34545455"
+        },
+        "flagged_words": {
+            "<": "0.0"
+        },
+        "words_per_line": {
+            ">": "2.0"
+        },
+        "words_per_line_mean": {
+            ">": "7.606060606060606"
+        },
+        "short_line_ratio": {
+            "<": "0.9333333333333333"
+        },
+        "character_repetition10": {
+            "<": "0.04807786"
+        },
+        "character_repetition5": {
+            "<": "0.14082687"
+        },
+        "word_repetition": {
+            ">": "0.45096748200000003",
+            "<": "0.82978723"
+        },
+        "unigram_entropy": {
+            ">": "3.65480799",
+            "<": "5.812319486"
+        },
+        "lines_end_in_punct": {
+            ">": "0.02666666666666667"
+        }
+    },
+    "es": {
+        "number_of_words": {
+            ">": "89.0"
+        },
+        "number_of_lines": {
+            ">": "4.0"
+        },
+        "number_of_characters": {
+            ">": "564.0"
+        },
+        "language_identification": {
+            ">": "0.9300000000000002"
+        },
+        "perplexity": {
+            "<": "270.5"
+        },
+        "stop_words": {
+            ">": "0.289884691"
+        },
+        "special_characters": {
+            "<": "0.23076923"
+        },
+        "flagged_words": {
+            "<": "0.0"
+        },
+        "words_per_line": {
+            ">": "3.0"
+        },
+        "words_per_line_mean": {
+            ">": "11.944444444444443"
+        },
+        "short_line_ratio": {
+            "<": "0.875"
+        },
+        "character_repetition10": {
+            "<": "0.09181074900000001"
+        },
+        "character_repetition5": {
+            "<": "0.19270073"
+        },
+        "word_repetition": {
+            ">": "0.37854250999999994",
+            "<": "0.68656716"
+        },
+        "unigram_entropy": {
+            ">": "3.8380677600000004",
+            "<": "5.534160842"
+        },
+        "lines_end_in_punct": {
+            ">": "0.10322580645161292"
+        }
+    },
+    "en": {
+        "number_of_words": {
+            ">": "63.0"
+        },
+        "number_of_lines": {
+            ">": "3.0"
+        },
+        "number_of_characters": {
+            ">": "392.0"
+        },
+        "language_identification": {
+            ">": "0.84"
+        },
+        "perplexity": {
+            "<": "487.9"
+        },
+        "stop_words": {
+            ">": "0.19148936"
+        },
+        "special_characters": {
+            "<": "0.30922904"
+        },
+        "flagged_words": {
+            "<": "1.0"
+        },
+        "words_per_line": {
+            ">": "3.0"
+        },
+        "words_per_line_mean": {
+            ">": "10.818615751789975"
+        },
+        "short_line_ratio": {
+            "<": "0.9166666666666666"
+        },
+        "character_repetition10": {
+            "<": "0.08165911"
+        },
+        "character_repetition5": {
+            "<": "0.18436149"
+        },
+        "word_repetition": {
+            ">": "0.34713851500000004",
+            "<": "0.7682926799999998"
+        },
+        "unigram_entropy": {
+            ">": "3.6850733860000005",
+            "<": "5.749369224"
+        },
+        "lines_end_in_punct": {
+            ">": "0.0"
+        }
+    },
+    "it": {
+        "number_of_words": {
+            ">": "76.0"
+        },
+        "number_of_lines": {
+            ">": "4.0"
+        },
+        "number_of_characters": {
+            ">": "511.0"
+        },
+        "language_identification": {
+            ">": "0.93"
+        },
+        "perplexity": {
+            "<": "336.2"
+        },
+        "stop_words": {
+            ">": "0.23"
+        },
+        "special_characters": {
+            "<": "0.2872807"
+        },
+        "flagged_words": {
+            "<": "0.0"
+        },
+        "words_per_line": {
+            ">": "3.0"
+        },
+        "words_per_line_mean": {
+            ">": "10.5"
+        },
+        "short_line_ratio": {
+            "<": "0.9"
+        },
+        "character_repetition10": {
+            "<": "0.07648981500000002"
+        },
+        "character_repetition5": {
+            "<": "0.16801276700000004"
+        },
+        "word_repetition": {
+            ">": "0.434063864",
+            "<": "0.77380952"
+        },
+        "unigram_entropy": {
+            ">": "3.8927778",
+            "<": "5.836254108"
+        },
+        "lines_end_in_punct": {
+            ">": "0.047619047619047616"
+        }
+    }
+}
